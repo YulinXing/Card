@@ -14,11 +14,13 @@ public class test {
 		
 		Sort.BubbleSort(arr);
 
+		System.out.println(Arrays.toString(arr));
+
 		
-		for(int k=0; k<arr.length; k++)
-		{
-			System.out.println(arr[k].getSuit() + arr[k].getSequence());
-		}
+		// for(int k=0; k<arr.length; k++)
+		// {
+		// 	System.out.println(arr[k].getSuit() + arr[k].getSequence());
+		// }
 		
 
 	}
